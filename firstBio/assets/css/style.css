@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/tic-tac-toe.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #777;
+    height: 75px;
+    background-color: #fff;
+}
+
+h1 {
+    margin: 0 0 0 0;
+    background-color: #4aaaa5;
+    color: #fff;
+    float: left;
+    padding: 19px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 425px;
+}
+
+ul {
+    text-align: right;
+    float: right;
+    width: 50%;
+    height: 75px;
+    position: absolute;
+    right: 425px;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    width: 13%;
+    padding: 10 5;
+    margin: 10 0;
+    font-size: 20px;
+    color: #777;
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+    position: relative;
+}
+
+li:hover{
+    color: #fff;
+    background-color: #777;
+}
+
+li:active{
+    top: 2px;
+}
+
+h2 {
+    background-color: #fff;
+    font-size: 36px;
+    color: #4aaaa5;
+    width: 90%;
+    margin: 20px auto;
+    border-bottom: 5px solid #777
+}
+
+section {
+    width: 960px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+article {
+    width: 90%;
+    height:350px;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+#bioPicture {
+    float: left;
+    margin-right: 10px
+}
+
+.bioText {
+   display: inline;
+}
+
+footer {
+    background-color: #777;
+    color: #fff;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+}
+
+form {
+    width: 90%;
+    margin: 10px auto;
+
+    }
+
+input {
+    text-align: top;
+}
+
+#formName {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    }
+
+#formEmail {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#formMessage {
+    width: 100%;
+    height: 200px;
+}
+
+#portSection {
+    text-align: center;
+}
+
+#portH2 {
+    text-align: left;
+}
+
+.imgHolder{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    display: inline-block;
+    
+}
+ .imgHolder p {
+     color: #fff;
+     font-size: 24px;
+     background-color: #4aaaa5;
+     margin: 0 50px;
+     width: 200px;
+     height: 40px;
+     position: relative;
+     bottom: 65px;
+ }
+
+ #submitButton{
+     text-align: center;
+     background-color: #4aaaa5;
+     color: #fff;
+     width: 150px;
+     padding: 20px;
+ }
+
+ #submitButton:hover {
+    background-color: #fff;
+    color: #4aaaa5;
+    border: 1px solid #4aaaa5;
+    cursor: pointer;
+    position: relative;
+ }
+
+ #submitButton:active {
+    top: 2px;
+ }
