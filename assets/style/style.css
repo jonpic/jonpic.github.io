@@ -1,8 +1,9 @@
 
 
 .jumbotron {
-    background-image: url("../images/skyline5.jpg");
+    background-image: url("../images/skyline6.png");
     background-size: cover;
+    background-attachment: fixed;
     
 }
 
