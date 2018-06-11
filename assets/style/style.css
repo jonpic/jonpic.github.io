@@ -1,0 +1,27 @@
+
+
+.jumbotron {
+    background-image: url("../images/skyline5.jpg");
+    background-size: cover;
+    
+}
+
+#bio-pic {
+    border-radius: 360px;
+}
+
+#about-container {
+    display: none;
+}
+
+#penn-container {
+    display: none;
+}
+
+#connect-container {
+    display: none;
+}
+
+#portfolio-container {
+    display: none;
+}
