@@ -1,7 +1,7 @@
 
 
 .jumbotron {
-    background-image: url("../images/skyline6.png");
+    background-image: url("../images/skyline5.jpg");
     background-size: cover;
     background-attachment: fixed;
     
@@ -25,4 +25,18 @@
 
 #portfolio-container {
     display: none;
+}
+
+.shadow-text {
+    text-shadow: 2px 2px black;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.card-img-top .img-responsive {
+    display: block;
+    width: auto;
+    max-height: 100%;
 }
